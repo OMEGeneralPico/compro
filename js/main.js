@@ -7,10 +7,10 @@
     Created: Colorlib
 ---------------------------------------------------------  */
 
-'use strict';
+
 
 (function ($) {
-
+    'use strict';
     /*------------------
         Preloader
     --------------------*/
@@ -110,8 +110,23 @@
     }
     var timerdate = mm + '/' + dd + '/' + yyyy;
     // For demo preview end
-    
-
+   
+   /*------------------
+        gallery-lightbox
+    --------------------*/
+  const galleryLightbox = GLightbox({
+    selector: '.gallery-lightbox'
+  });
+  
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+    /*  */
     // Use this for real timer date
     /*  var timerdate = "2020/01/01"; */
 
