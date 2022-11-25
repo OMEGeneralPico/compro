@@ -1141,7 +1141,7 @@ ol {
 .partner-logo .pl-table .pl-tablecell {
 	display: table-cell;
 	vertical-align: middle;
-	height: 41px;
+	width: 100%;
 }
 
 .footer-text {
@@ -1219,6 +1219,9 @@ ol {
 	margin-right: 0;
 }
 
+.lista{
+	padding-bottom: .6em;
+}
 /* ----------------------------------- Other Pages Styles ------------------------------- */
 
 /*---------------------
