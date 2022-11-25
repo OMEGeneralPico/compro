@@ -2732,7 +2732,7 @@ ol {
 		border-radius: 0;
 		padding: 12px 15px;
 		float: none;
-		background: #5c00ce;
+		background: transparent;
 	}
 	.slicknav_nav {
 		position: absolute;

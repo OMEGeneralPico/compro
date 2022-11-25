@@ -695,9 +695,9 @@ ol {
 }
 
 .schedule-tab .st-content .sc-pic img {
-	height: 120px;
-	width: 120px;
-	border-radius: 50%;
+	
+	width: 100%;
+
 }
 
 .schedule-tab .st-content .sc-text {
@@ -775,7 +775,9 @@ ol {
 .pricing-section .section-title p {
 	color: #a0a1b5;
 }
-
+p{
+	padding-top: 1em;
+}
 .price-item {
 	background: #ffffff;
 	text-align: center;
