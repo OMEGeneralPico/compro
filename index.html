@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Compro en Pico">
-    <meta name="keywords" content="compro, unica, creative, html">
+    <meta name="keywords" content="compro, pico, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Compro en Pico - Municipalidad de General Pico</title>
@@ -29,482 +29,514 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/style2.css" type="text/css">
-    
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-    <button onclick="topFunction()" id="myBtn" title="Volver al inicio">↑</button>
-    <!-- Header Section Begin -->
-    <header class="header-section" style="background-color: black;color: white;">
-        <div class="container">
-            <div class="logo">
-                <a href="./index.html">
-                    <img src="img/logo-horizontal.png" alt="">
-                </a>
-            </div>
-            <div class="nav-menu">
-                <nav class="mainmenu mobile-menu">
-                    <ul>
-                        <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#about">Sobre el evento</a></li>                        
-                        <li><a href="#agenda">Agenda</a></li>
-                        <li><a href="#registro">Registrate</a></li>
-                        <li><a href="#comercios">Comercios adheridos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="mobile-menu-wrap"></div>
+
+    <main id="main" aria-hidden="true">
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Volver al inicio">↑</button>
+<!-- Header Section Begin -->
+<header class="header-section" style="background-color: black;color: white;">
+    <div class="container">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="img/logo-horizontal.png" alt="">
+            </a>
         </div>
-    </header>
-    <!-- Header End -->
+        <div class="nav-menu">
+            <nav class="mainmenu mobile-menu">
+                <ul>
+                    <!-- <li class="active"><a href="#home">Home</a></li> -->
+                    <li><a href="#about">Sobre el evento</a></li>                        
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#registro">Registrate</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#comercios">Comercios adheridos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>
+<!-- Header End -->
 <!-- Countdown Section Begin -->
 <section class="countdown spad set-bg" data-setbg="img/back.jpg" id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="countdown__text">
-                    <h1>COMPRO EN PICO</h1>
-                    <h4>El evento comienza en:</h4>
-                </div>
-                <div class="countdown__timer" id="countdown-time">
-                    <div class="countdown__item">
-                        <span>20</span>
-                        <p>Dias</p>
-                    </div>
-                    <div class="countdown__item">
-                        <span>45</span>
-                        <p>horas</p>
-                    </div>
-                    <div class="countdown__item">
-                        <span>18</span>
-                        <p>minutos</p>
-                    </div>
-                    <div class="countdown__item">
-                        <span>09</span>
-                        <p>segundos</p>
-                    </div>
-                </div>
-               <!--  <div class="buy__tickets">
-                    <a href="#" class="primary-btn">Buy tickets</a>
-                </div> -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="countdown__text">
+                <h1>COMPRO EN PICO</h1>
+                <h4>El evento comienza en:</h4>
             </div>
+            <div class="countdown__timer" id="countdown-time">
+                <div class="countdown__item">
+                    <span>20</span>
+                    <p>Dias</p>
+                </div>
+                <div class="countdown__item">
+                    <span>45</span>
+                    <p>horas</p>
+                </div>
+                <div class="countdown__item">
+                    <span>18</span>
+                    <p>minutos</p>
+                </div>
+                <div class="countdown__item">
+                    <span>09</span>
+                    <p>segundos</p>
+                </div>
+            </div>
+           <!--  <div class="buy__tickets">
+                <a href="#" class="primary-btn">Buy tickets</a>
+            </div> -->
         </div>
     </div>
+</div>
 </section>
 <!-- Countdown Section End -->
 
 
-    <!-- Home About Section Begin -->
-    <section class="home-about-section spad" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="ha-pic">
-                        <img src="img/h-about.jpg" alt="">
-                    </div>
+<!-- Home About Section Begin -->
+<section class="home-about-section spad" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="ha-pic">
+                    <img src="img/h-about.jpg" alt="">
                 </div>
-                <div class="col-lg-6">
-                    <div class="ha-text">
-                        <h2>Sobre el evento</h2>
-                        <p>Por cuarto año consecutivo la Municipalidad de General Pico anunció el desarrollo del Programa "Compro en Pico", esta vez para el viernes 23 de diciembre.</p>
-                        <ul>
-                            <li class="lista"><span class="icon_check"></span> Quienes adquieran el 23/12 los regalos navideños en los comercios adheridos, podrán participar del sorteo de importantes premios</li>
-                            <li class="lista"><span class="icon_check"></span> El sorteo se realizará ese mismo día y se publicarán los ganadores en las redes sociales de la Municipalidad de General Pico</li>
-                            <li class="lista"><span class="icon_check"></span> También se sumarán a la propuesta horticultores y floricultores locales, en este caso en el horario de mañana tanto del 23 como del 24 de diciembre</li>
-                            <li class="lista"><span class="icon_check"></span> están previstos espectáculos musicales, paseo de artesanías y foodtrucks, todo a partir de las 19 horas en el Paseo de la calle 21</li>
-                        </ul>
-                        <!-- <a href="#" class="ha-btn">Discover Now</a> -->
-                    </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="ha-text">
+                    <h2>Sobre el evento</h2>
+                    <p>Por cuarto año consecutivo la Municipalidad de General Pico anunció el desarrollo del Programa "Compro en Pico", esta vez para el viernes 23 de diciembre.</p>
+                    <ul>
+                        <li class="lista"><span class="icon_check"></span> Quienes adquieran el 23/12 los regalos navideños en los comercios adheridos, podrán participar del sorteo de importantes premios</li>
+                        <li class="lista"><span class="icon_check"></span> El sorteo se realizará ese mismo día y se publicarán los ganadores en las redes sociales de la Municipalidad de General Pico</li>
+                        <li class="lista"><span class="icon_check"></span> También se sumarán a la propuesta horticultores y floricultores locales, en este caso en el horario de mañana tanto del 23 como del 24 de diciembre</li>
+                        <li class="lista"><span class="icon_check"></span> están previstos espectáculos musicales, paseo de artesanías y foodtrucks, todo a partir de las 19 horas en el Paseo de la calle 21</li>
+                    </ul>
+                    <!-- <a href="#" class="ha-btn">Discover Now</a> -->
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Home About Section End -->
+    </div>
+</section>
+<!-- Home About Section End -->
 
-    <!-- Schedule Section Begin -->
-    <section class="schedule-section spad" id="agenda">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Agenda del evento</h2>
-                        <!-- <p>Do not miss anything topic about the event</p> -->
-                    </div>
+<!-- Schedule Section Begin -->
+<section class="schedule-section spad" id="agenda">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Agenda del evento</h2>
+                    <!-- <p>Do not miss anything topic about the event</p> -->
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="schedule-tab">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
-                                    <h5>19:00 hs</h5>
-                                    <p>Acto de inauguración</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">
-                                    <h5>20:00 hs</h5>
-                                    <p>Presentación de bandas</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">
-                                    <h5>21:00 hs </h5>
-                                    <p>llega Papá Noel</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">
-                                    <h5>22:00 hs</h5>
-                                    <p>Cierre del evento</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab">
-                                    <h5>23:00 hs</h5>
-                                    <p>Recital principal</p>
-                                </a>
-                            </li>
-                        </ul><!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
-                                <div class="st-content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <div class="sc-pic">
-                                                    <img src="img/schedule/acto.jfif" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-5">
-                                                <div class="sc-text">
-                                                    <h4>Dealing with Difficult People</h4>
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i> John Smith</li>
-                                                        <li><i class="fa fa-envelope"></i> john@Colorlib.com
-                                                        </li>
-                                                    </ul>
-                                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vero delectus. Pariatur, nisi. Nam neque similique voluptates delectus ipsum, asperiores libero magni accusantium hic quam, odio consectetur? Atque, animi asperiores? </p>
-                                                </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="schedule-tab">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
+                                <h5>19:00 hs</h5>
+                                <p>Acto de inauguración</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">
+                                <h5>20:00 hs</h5>
+                                <p>Presentación de bandas</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">
+                                <h5>21:00 hs </h5>
+                                <p>llega Papá Noel</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">
+                                <h5>22:00 hs</h5>
+                                <p>Cierre del evento</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab">
+                                <h5>23:00 hs</h5>
+                                <p>Recital principal</p>
+                            </a>
+                        </li>
+                    </ul><!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="st-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div class="sc-pic">
+                                                <img src="img/schedule/acto.jfif" alt="">
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-2" role="tabpanel">                                
-                                <div class="st-content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <div class="sc-pic">
-                                                    <img src="img/schedule/bandas.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-5">
-                                                <div class="sc-text">
-                                                    <h4>V7 Digital Photo Printing</h4>
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i> John Smith</li>
-                                                        <li><i class="fa fa-envelope"></i> john@Colorlib.com
-                                                        </li>
-                                                    </ul>
-                                                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis voluptatibus fugit iusto voluptatum nulla dicta quas hic debitis modi dolorem alias voluptate, ducimus, at quo excepturi odit repellendus quibusdam. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-3" role="tabpanel">
-                                <div class="st-content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <div class="sc-pic">
-                                                    <img src="img/schedule/papanoel.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-5">
-                                                <div class="sc-text">
-                                                    <h4>Beyond The Naked Eye</h4>
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i> John Smith</li>
-                                                        <li><i class="fa fa-envelope"></i> john@Colorlib.com
-                                                        </li>
-                                                    </ul>
-                                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus, similique tenetur est error neque quam ipsam consequatur maxime cupiditate, exercitationem perspiciatis? Sed, laboriosam ratione quos quibusdam ut fuga porro? </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-4" role="tabpanel">                               
-                                <div class="st-content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <div class="sc-pic">
-                                                    <img src="img/schedule/cierre.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-5">
-                                                <div class="sc-text">
-                                                    <h4>Influencing The Influencer</h4>
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i> John Smith</li>
-                                                        <li><i class="fa fa-envelope"></i> john@Colorlib.com
-                                                        </li>
-                                                    </ul>
-                                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus, similique tenetur est error neque quam ipsam consequatur maxime cupiditate, exercitationem perspiciatis? Sed, laboriosam ratione quos quibusdam ut fuga porro? </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-5" role="tabpanel">
-                                <div class="st-content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-7">
-                                                <div class="sc-pic">
-                                                    <img src="img/schedule/recital.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-5">
-                                                <div class="sc-text">
-                                                    <h4>Dealing with Too Difficult People</h4>
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i> John Smith</li>
-                                                        <li><i class="fa fa-envelope"></i> john@Colorlib.com
-                                                        </li>
-                                                    </ul>
-                                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus, similique tenetur est error neque quam ipsam consequatur maxime cupiditate, exercitationem perspiciatis? Sed, laboriosam ratione quos quibusdam ut fuga porro? </p>
-                                                </div>
+                                        <div class="col-lg-5">
+                                            <div class="sc-text">
+                                                <h4>Dealing with Difficult People</h4>
+                                                <!-- <ul>
+                                                    <li><i class="fa fa-user"></i> John Smith</li>
+                                                    <li><i class="fa fa-envelope"></i> john@Colorlib.com
+                                                    </li>
+                                                </ul> -->
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vero delectus. Pariatur, nisi. Nam neque similique voluptates delectus ipsum, asperiores libero magni accusantium hic quam, odio consectetur? Atque, animi asperiores? </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Schedule Section End -->
-
-    <!-- Pricing Section Begin -->
-    <section class="pricing-section set-bg spad" data-setbg="img/compro.jpg" id="registro">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Registrate</h2>
-                        <p>Para participar de los sorteos y los espectaculos del evento</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8">
-                    <div class="price-item">
-                       <!--  <h4>Bandas</h4> -->
-                        <div class="pi-price">
-                            <h2>Bandas</h2>
+                        <div class="tab-pane" id="tabs-2" role="tabpanel">                                
+                            <div class="st-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div class="sc-pic">
+                                                <img src="img/schedule/bandas.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="sc-text">
+                                                <h4>V7 Digital Photo Printing</h4>
+                                                <!-- <ul>
+                                                    <li><i class="fa fa-user"></i> John Smith</li>
+                                                    <li><i class="fa fa-envelope"></i> john@Colorlib.com
+                                                    </li>
+                                                </ul> -->
+                                                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis voluptatibus fugit iusto voluptatum nulla dicta quas hic debitis modi dolorem alias voluptate, ducimus, at quo excepturi odit repellendus quibusdam. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <ul>
-                            <li>One Day Conference Ticket</li>
-                            <li>Coffee-break</li>
-                            <li>Lunch and Networking</li>
-                            <li>Keynote talk</li>
-                            <li>Talk to the Editors Session</li>
-                        </ul>
-                        <a href="#" class="price-btn">Registrate</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="price-item top-rated">
-                        <!-- <h4>Sorteos</h4> -->
-                        <div class="pi-price">
-                            <h2>Sorteos</h2>
+                        <div class="tab-pane" id="tabs-3" role="tabpanel">
+                            <div class="st-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div class="sc-pic">
+                                                <img src="img/schedule/papanoel.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="sc-text">
+                                                <h4>Beyond The Naked Eye</h4>
+                                               <!--  <ul>
+                                                    <li><i class="fa fa-user"></i> John Smith</li>
+                                                    <li><i class="fa fa-envelope"></i> john@Colorlib.com
+                                                    </li>
+                                                </ul> -->
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus, similique tenetur est error neque quam ipsam consequatur maxime cupiditate, exercitationem perspiciatis? Sed, laboriosam ratione quos quibusdam ut fuga porro? </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <ul>
-                            <li>One Day Conference Ticket</li>
-                            <li>Coffee-break</li>
-                            <li>Lunch and Networking</li>
-                            <li>Keynote talk</li>
-                            <li>Talk to the Editors Session</li>
-                            <li>Lunch and Networking</li>
-                            <li>Keynote talk</li>
-                        </ul>
-                        <a href="#" class="price-btn">Registrate</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="price-item">
-                        <!-- <h4>Comercios</h4> -->
-                        <div class="pi-price">
-                            <h2>Comercios</h2>
+                        <div class="tab-pane" id="tabs-4" role="tabpanel">                               
+                            <div class="st-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div class="sc-pic">
+                                                <img src="img/schedule/cierre.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="sc-text">
+                                                <h4>Influencing The Influencer</h4>
+                                                <!-- <ul>
+                                                    <li><i class="fa fa-user"></i> John Smith</li>
+                                                    <li><i class="fa fa-envelope"></i> john@Colorlib.com
+                                                    </li>
+                                                </ul> -->
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus, similique tenetur est error neque quam ipsam consequatur maxime cupiditate, exercitationem perspiciatis? Sed, laboriosam ratione quos quibusdam ut fuga porro? </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <ul>
-                            <li>One Day Conference Ticket</li>
-                            <li>Coffee-break</li>
-                            <li>Lunch and Networking</li>
-                            <li>Keynote talk</li>
-                            <li>Talk to the Editors Session</li>
-                        </ul>
-                        <a href="#" class="price-btn">Registrate</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Pricing Section End -->
-
-    <!-- latest BLog Section Begin -->
-    <section class="latest-blog spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Latest News</h2>
-                        <p>Do not miss anything topic abput the event</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="latest-item set-bg large-item" data-setbg="img/blog/latest-b/latest-1.jpg">
-                        <div class="li-tag">Marketing</div>
-                        <div class="li-text">
-                            <h4><a href="./blog-details.html">Improve You Business Cards And Enchan Your Sales</a></h4>
-                            <span><i class="fa fa-clock-o"></i> 19th May, 2019</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="latest-item set-bg" data-setbg="img/blog/latest-b/latest-2.jpg">
-                        <div class="li-tag">Experience</div>
-                        <div class="li-text">
-                            <h5><a href="./blog-details.html">All users on MySpace will know that there are millions of people out there.</a></h5>
-                            <span><i class="fa fa-clock-o"></i> 19th May, 2019</span>
-                        </div>
-                    </div>
-                    <div class="latest-item set-bg" data-setbg="img/blog/latest-b/latest-3.jpg">
-                        <div class="li-tag">Marketing</div>
-                        <div class="li-text">
-                            <h5><a href="./blog-details.html">A Pocket PC is a handheld computer, which features many of the same capabilities.</a></h5>
-                            <span><i class="fa fa-clock-o"></i> 19th May, 2019</span>
+                        <div class="tab-pane" id="tabs-5" role="tabpanel">
+                            <div class="st-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div class="sc-pic">
+                                                <img src="img/schedule/recital.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="sc-text">
+                                                <h4>Dealing with Too Difficult People</h4>
+                                                <!-- <ul>
+                                                    <li><i class="fa fa-user"></i> John Smith</li>
+                                                    <li><i class="fa fa-envelope"></i> john@Colorlib.com
+                                                    </li>
+                                                </ul> -->
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus, similique tenetur est error neque quam ipsam consequatur maxime cupiditate, exercitationem perspiciatis? Sed, laboriosam ratione quos quibusdam ut fuga porro? </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- latest BLog Section End -->
-  
+    </div>
+</section>
+<!-- Schedule Section End -->
 
-    <!-- Contact Section Begin -->
-    <section class="contact-section spad" id="comercios">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-title">
-                        <h2>Comercios </h2>
-                        <p>Get directions to our event center</p>
+<!-- Pricing Section Begin -->
+<section class="pricing-section set-bg spad" data-setbg="img/compro.jpg" id="registro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Registrate</h2>
+                    <p>Para participar de los sorteos y los espectaculos del evento</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-8">
+                <div class="price-item">
+                   <!--  <h4>Bandas</h4> -->
+                    <div class="pi-price">
+                        <h2>Bandas</h2>
                     </div>
-                    <div class="cs-text">
-                        <div class="ct-address">
-                            <span>Address:</span>
-                            <p>01 Pascale Springs Apt. 339, NY City <br />United State</p>
-                        </div>
-                        <ul>
-                            <li>
-                                <span>Phone:</span>
-                                (+12)-345-67-8910
-                            </li>
-                            <li>
-                                <span>Email:</span>
-                                info.colorlib@gmail.com
-                            </li>
-                        </ul>
-                        <div class="ct-links">
-                            <span>Website:</span>
-                            <p>https://conference.colorlib.com</p>
-                        </div>
+                    <ul>
+                        <li>Inscribi a tu banda</li>
+                        <li>Participa del evento</li>
+                        <li>Las bandas</li>
+                        <li>Keynote talk</li>
+                        <li>Talk to the Editors Session</li>
+                    </ul>
+                    <a href="#" class="price-btn">Registrate</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <div class="price-item top-rated">
+                    <!-- <h4>Sorteos</h4> -->
+                    <div class="pi-price">
+                        <h2>Sorteos</h2>
+                    </div>
+                    <ul>
+                        <li>One Day Conference Ticket</li>
+                        <li>Coffee-break</li>
+                        <li>Lunch and Networking</li>
+                        <li>Keynote talk</li>
+                        <li>Talk to the Editors Session</li>
+                        <li>Lunch and Networking</li>
+                        <li>Keynote talk</li>
+                    </ul>
+                    <a href="#" class="price-btn">Registrate</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <div class="price-item">
+                    <!-- <h4>Comercios</h4> -->
+                    <div class="pi-price">
+                        <h2>Comercios</h2>
+                    </div>
+                    <ul>
+                        <li>Premios a las mejores vidrieras</li>
+                        <li>Coffee-break</li>
+                        <li>Lunch and Networking</li>
+                        <li>Keynote talk</li>
+                        <li>Talk to the Editors Session</li>
+                    </ul>
+                    <a href="#" class="price-btn">Registrate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pricing Section End -->
+ <!-- ======= Gallery Section ======= -->
+ <section id="gallery" class="gallery">
+    <!-- ver -->
+<div class="container gallery-container">
+    <div class="col-lg-12">
+        <div class="section-title">
+            <h2>Galeria</h2>
+            <p>El evento años anteriores</p>
+        </div>
+    </div>    
+    <div class="tz-gallery">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-6.jpg">
+                    <img src="img/gallery/img-6.jpg" alt="img-6">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-1.jpg">
+                    <img src="img/gallery/img-1.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-3.jpg">
+                    <img src="img/gallery/img-3.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-4.jpg">
+                    <img src="img/gallery/img-4.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-5.jpg">
+                    <img src="img/gallery/img-5.jpg" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-2.jpg">
+                    <img src="img/gallery/img-2.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-7.jpg">
+                    <img src="img/gallery/img-7.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-8.jpg">
+                    <img src="img/gallery/img-8.jpg" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="img/gallery/img-9.jpg">
+                    <img src="img/gallery/img-9.jpg" alt="Rails">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ver -->
+  </section><!-- End Gallery Section -->
+
+
+<!-- Contact Section Begin -->
+<section class="contact-section spad" id="comercios">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <h2>Comercios </h2>
+                    <p>Get directions to our event center</p>
+                </div>
+                <div class="cs-text">
+                    <div class="ct-address">
+                        <span>Address:</span>
+                        <p>01 Pascale Springs Apt. 339, NY City <br />United State</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>Phone:</span>
+                            (+12)-345-67-8910
+                        </li>
+                        <li>
+                            <span>Email:</span>
+                            info.colorlib@gmail.com
+                        </li>
+                    </ul>
+                    <div class="ct-links">
+                        <span>Website:</span>
+                        <p>https://conference.colorlib.com</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="cs-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52901.38789495531!2d-118.19465514866786!3d34.03523211493029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf71ad83ff9f%3A0x518b28657f4543b7!2sEast%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1579763856144!5m2!1sen!2sbd"
-                            height="400" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="col-lg-6">
+                <div class="cs-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52901.38789495531!2d-118.19465514866786!3d34.03523211493029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf71ad83ff9f%3A0x518b28657f4543b7!2sEast%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1579763856144!5m2!1sen!2sbd"
+                        height="400" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section End -->
+
+<!-- Footer Section Begin -->
+<footer class="footer-section">      
+    <div class="container">          
+        <div class="partner-logo owl-carousel">
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/cicar.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/ccya.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/cec.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/banco.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/corpico.png" alt="">
+                </div>
+            </a>
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-text">
+                    <ul>
+                        <!-- <li><a href="#home">Home</a></li> -->
+                        <li><a href="#about">Sobre el evento</a></li>
+                        <li><a href="#agenda">Agenda</a></li>
+                        <li><a href="#registro">Registrate</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#comercios">Comercios adheridos</a></li>
+                    </ul>                       
+                    <div class="ft-social">
+                        <a href="https://www.facebook.com/MunicipalidadGeneralPico" target="_blank"><i class="fa fa-facebook"></i></a>                            
+                        <a href="https://www.instagram.com/municipalidadgeneralpico/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCu1OWDR9x9yjzHzSrToy7Dw"><i class="fa fa-youtube-play" target="_blank"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Contact Section End -->
+    </div>
+</footer>
+<!-- Footer Section End -->
 
-    <!-- Footer Section Begin -->
-    <footer class="footer-section">      
-        <div class="container">          
-            <div class="partner-logo owl-carousel">
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/cicar.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/ccya.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/cec.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/banco.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/corpico.png" alt="">
-                    </div>
-                </a>
-                
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-text">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">Sobre el evento</a></li>
-                            <li><a href="#agenda">Agenda</a></li>
-                            <li><a href="#registro">Registrate</a></li>
-                            <li><a href="#comercios">Comercios adheridos</a></li>
-                        </ul>                       
-                        <div class="ft-social">
-                            <a href="https://www.facebook.com/MunicipalidadGeneralPico" target="_blank"><i class="fa fa-facebook"></i></a>                            
-                            <a href="https://www.instagram.com/municipalidadgeneralpico/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/channel/UCu1OWDR9x9yjzHzSrToy7Dw"><i class="fa fa-youtube-play" target="_blank"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
-
+    </main>
+    
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -514,6 +546,13 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/main2.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+  
+    
+    
     <script>
         // Get the button
         let mybutton = document.getElementById("myBtn");

@@ -125,31 +125,7 @@
         $(this).html(event.strftime("<div class='countdown__item'><span>%D</span> <p>Dias</p> </div>" + "<div class='countdown__item'><span>%H</span> <p>Horas</p> </div>" + "<div class='countdown__item'><span>%M</span> <p>Minutos</p> </div>" + "<div class='countdown__item'><span>%S</span> <p>Segundos</p> </div>"));
     });
 
-    /*------------------
-		Barfiller
-	--------------------*/
-    $('#bar1').barfiller({
-        barColor: "#ffffff",
-    });
 
-    $('#bar2').barfiller({
-        barColor: "#ffffff",
-    });
-
-    $('#bar3').barfiller({
-        barColor: "#ffffff",
-    });
-
-    /*-------------------
-		Nice Scroll
-	--------------------- */
-    $(".nice-scroll").niceScroll({
-        cursorcolor: "#111111",
-        cursorwidth: "5px",
-        background: "#e1e1e1",
-        cursorborder: "",
-        autohidemode: false,
-        horizrailenabled: false
-    });
+   
 
 })(jQuery);

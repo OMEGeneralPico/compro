@@ -64,27 +64,7 @@
         }
     });
 
-    /*------------------------
-		Testimonial Slider
-    ----------------------- */
-    $(".testimonial-slider").owlCarousel({
-        items: 2,
-        dots: false,
-        autoplay: false,
-        loop: true,
-        smartSpeed: 1200,
-        nav: true,
-        navText: ["<span class='fa fa-angle-left'></span>", "<span class='fa fa-angle-right'></span>"],
-        responsive: {
-            320: {
-                items: 1,
-            },
-            768: {
-                items: 2
-            }
-        }
-    });
-
+  
     /*------------------
         Magnific Popup
     --------------------*/
@@ -111,21 +91,7 @@
     var timerdate = mm + '/' + dd + '/' + yyyy;
     // For demo preview end
    
-   /*------------------
-        gallery-lightbox
-    --------------------*/
-  const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox'
-  });
   
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
     /*  */
     // Use this for real timer date
     /*  var timerdate = "2020/01/01"; */

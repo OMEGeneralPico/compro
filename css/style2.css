@@ -2758,7 +2758,7 @@ ol {
 	.slicknav_nav a:hover {
 		border-radius: 0;
 		background: #5c00ce;
-		color: #ffffff;
+		/* color: #ffffff; */
 	}
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
